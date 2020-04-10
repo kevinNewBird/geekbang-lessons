@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lessons-in-spring</artifactId>
+        <groupId>com.geekbang</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ioc-container-overview</artifactId>
+    <dependencies>
+        <!--
+              spring-core: Spring基础API模块 , 如资源管理,泛型处理;
+              spring-beans: Spring Bean 相关, 如依赖查找,依赖注入;
+              spring-aop: Spring AOP 处理, 如动态代理, AOP字节码提升;
+              spring-context: 事件驱动、注解驱动，模块驱动等；
+              spring-expression: Spring 表达式语言模块
+        -->
+        <!--Spring IoC 核心依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- services -->
+
+    <bean id="user" class="org.geekbang.spring.ioc.overview.domain.User">
+        <property name="id" value="1"/>
+        <property name="name" value="geekbang"/>
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+
+
+    <!--通过类型获取对象时，必须指明primary-->
+    <bean id="superUser" class="org.geekbang.spring.ioc.overview.domain.SuperUser" parent="user" primary="true">
+        <property name="address" value="beijing"/>
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="commonUser" class="org.geekbang.spring.ioc.overview.domain.CommonUser" parent="user" primary="false">
+        <property name="phoneNum" value="153534657658"/>
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="objectFactory" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean">
+        <property name="targetBeanName" value="user"/>
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+
+    <!--<bean id="factoryBean" class="org.geekbang.spring.ioc.overview.dependency.lookup.CustomerFactoryBean">-->
+        <!--<property name="type" value="myuser"/>-->
+    <!--</bean>-->
+
+
+    <!-- more bean definitions for services go here -->
+
+</beans>
