@@ -3,8 +3,10 @@ package org.geekbang.spring.ioc.overview.dependency.lookup;
 import org.geekbang.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.FactoryBean;
 
+import java.util.Optional;
+
 /**
- * Description: TODO <BR>
+ * Description: 未成功实现（待学习） <BR>
  *
  * @Author: zhao.song
  * @Date: 2020/4/10 10:00
@@ -37,5 +39,10 @@ public class CustomerFactoryBean implements FactoryBean {
         this.type = type;
     }
 
+
+    public static void main(String[] args) {
+        Optional<Object> optional = Optional.empty();
+        System.out.println(optional.isPresent());
+    }
 
 }

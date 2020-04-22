@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--通过导入复用  dependency-lookup-context.xml -->
+    <import resource="dependency-lookup-context.xml"/>
+
+    <bean id="userRepository" class="org.geekbang.spring.ioc.overview.repository.UserRepository" autowire="byType">
+        <!--手动配置,缺陷:硬编码 , 优点: 注入顺序可控-->
+        <!--<property name="users">
+            &lt;!&ndash;使用util:list标签 , 需要在beans中进行配置xmlns:util&ndash;&gt;
+            <util:list>
+                <ref bean="user"/>
+                <ref bean="superUser"/>
+            </util:list>
+        </property>-->
+
+        <!-- 自动注入 Auto-Wiring  配置属性autowire  缺陷: bean的顺序不能调整-->
+
+
+    </bean>
+
+</beans>

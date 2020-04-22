@@ -2,46 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38599087-60c6-494e-99a1-d3667229f98e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_api_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_4_jdk13_jdk13_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImportantPoint.Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/annotation/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/lessons-in-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/ioc/java/beans/BeanInfoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/ioc/java/beans/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/domain/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/lessons-in-spring/target/" />
@@ -57,54 +28,66 @@
     <session id="2075240120">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="5" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="29" />
+          <entry key="class" value="41" />
           <entry key="http" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="27" />
-          <entry key="md" value="4" />
-          <entry key="xml" value="5" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="42" />
+          <entry key="md" value="7" />
+          <entry key="xml" value="10" />
           <entry key="xsd" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="29" />
+          <entry key="CLASS" value="41" />
           <entry key="HTTP Request" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="27" />
-          <entry key="Markdown" value="4" />
-          <entry key="XML" value="7" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="42" />
+          <entry key="Markdown" value="7" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="17" />
-          <entry key="java" value="3776" />
+          <entry key="java" value="5938" />
           <entry key="md" value="1075" />
-          <entry key="xml" value="1014" />
+          <entry key="xml" value="1387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3782" />
+          <entry key="JAVA" value="5944" />
           <entry key="Markdown" value="1069" />
           <entry key="VTL" value="17" />
-          <entry key="XML" value="1014" />
+          <entry key="XML" value="1387" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.merge" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -112,10 +95,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="1364">
+              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,75 +107,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/ToString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15092">
+              <caret line="799" column="56" selection-start-line="799" selection-start-column="56" selection-end-line="799" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="-2518">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -212,10 +191,17 @@
       <find>Aware</find>
       <find>Objec</find>
       <find>ObjectFactory</find>
+      <find>setParent</find>
+      <find>getBeanFactory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -233,15 +219,18 @@
         <option value="$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/DemoTest.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/HttpRequest.http" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/pom.xml" />
         <option value="$PROJECT_DIR$/ImportantPoint.Readme.md" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/annotation/Super.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" />
       </list>
     </option>
   </component>
@@ -313,7 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -321,6 +309,11 @@
             <path>
               <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
@@ -431,6 +424,22 @@
               <item name="ioc" type="462c0819:PsiDirectoryNode" />
               <item name="overview" type="462c0819:PsiDirectoryNode" />
               <item name="dependency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="overview" type="462c0819:PsiDirectoryNode" />
+              <item name="dependency" type="462c0819:PsiDirectoryNode" />
+              <item name="injection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
@@ -470,6 +479,21 @@
               <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="overview" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -482,47 +506,18 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ObjectFactory&#9;FILE&#9;jar://D:/maven_repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/config/ObjectFactoryCreatingFactoryBean.class&#10;EnableWebMvc&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;ResolvableType&#9;PSI&#9;JAVA://org.springframework.core.ResolvableType&#10;GenericTypeResolver&#9;PSI&#9;JAVA://org.springframework.core.GenericTypeResolver&#10;PropertySource&#9;PSI&#9;JAVA://org.springframework.core.env.PropertySource&#10;Environment&#9;PSI&#9;JAVA://org.springframework.core.env.Environment&#10;AopProxy&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxy&#10;SimpleApplicationEvent&#9;PSI&#9;JAVA://org.springframework.context.event.SimpleApplicationEventMulticaster&#10;ApplicationEvent&#9;PSI&#9;JAVA://org.springframework.context.ApplicationEvent&#10;beanNameaware&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanNameAware&#10;BeanPostProcessor&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;Aware&#9;PSI&#9;JAVA://org.springframework.beans.factory.Aware" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586512317783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587484425066" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -530,6 +525,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geekbang.spring.ioc.overview.dependency.injection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\geekbang-lessons\geekbang-lessons\lessons-in-spring\ioc-container-overview\src\main\resources\META-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -543,13 +546,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DependencyLookupDemo">
-    <configuration name="BeanInfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbang.ioc.java.beans.BeanInfoDemo" />
-      <module name="lessons-in-spring" />
+  <component name="RunManager" selected="Application.UserRepository">
+    <configuration name="CustomerFactoryBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.dependency.lookup.CustomerFactoryBean" />
+      <module name="ioc-container-overview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbang.ioc.java.beans.*" />
+          <option name="PATTERN" value="org.geekbang.spring.ioc.overview.dependency.lookup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -557,12 +560,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbang.DemoTest" />
-      <module name="lessons-in-spring" />
+    <configuration name="DependencyInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.dependency.injection.DependencyInjectionDemo" />
+      <module name="ioc-container-overview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbang.*" />
+          <option name="PATTERN" value="org.geekbang.spring.ioc.overview.dependency.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -583,16 +586,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.domain.User" />
+      <module name="ioc-container-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geekbang.spring.ioc.overview.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.repository.UserRepository" />
+      <module name="ioc-container-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geekbang.spring.ioc.overview.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DemoTest" />
-      <item itemvalue="Application.BeanInfoDemo" />
       <item itemvalue="Application.DependencyLookupDemo" />
+      <item itemvalue="Application.CustomerFactoryBean" />
+      <item itemvalue="Application.DependencyInjectionDemo" />
+      <item itemvalue="Application.User" />
+      <item itemvalue="Application.UserRepository" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserRepository" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.DependencyInjectionDemo" />
+        <item itemvalue="Application.CustomerFactoryBean" />
         <item itemvalue="Application.DependencyLookupDemo" />
-        <item itemvalue="Application.DemoTest" />
-        <item itemvalue="Application.BeanInfoDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -621,18 +654,48 @@
       <workItem from="1586397290799" duration="599000" />
       <workItem from="1586417331578" duration="2288000" />
       <workItem from="1586444412933" duration="4635000" />
-      <workItem from="1586483899778" duration="9410000" />
+      <workItem from="1586483899778" duration="11147000" />
+      <workItem from="1586521853087" duration="1210000" />
+      <workItem from="1586571892126" duration="1193000" />
+      <workItem from="1586744206234" duration="597000" />
+      <workItem from="1586759331713" duration="890000" />
+      <workItem from="1586760691673" duration="600000" />
+      <workItem from="1586766946866" duration="1246000" />
+      <workItem from="1586783915319" duration="598000" />
+      <workItem from="1586915789277" duration="2846000" />
+      <workItem from="1586954325325" duration="1570000" />
+      <workItem from="1587002284822" duration="5631000" />
+      <workItem from="1587044584313" duration="5558000" />
+      <workItem from="1587088847924" duration="599000" />
+      <workItem from="1587125527971" duration="1296000" />
+      <workItem from="1587188061828" duration="846000" />
+      <workItem from="1587354248168" duration="3200000" />
+      <workItem from="1587396608949" duration="248000" />
+      <workItem from="1587434356150" duration="1262000" />
+      <workItem from="1587471833629" duration="6293000" />
+      <workItem from="1587521050269" duration="1203000" />
+      <workItem from="1587536331726" duration="1964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40071000" />
+    <option name="totallyTimeSpent" value="80658000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2448" height="1344" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26926297" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971815" visible="true" weight="0.18886097" />
+      <window_info id="Structure" order="1" sideWeight="0.50281847" side_tool="true" visible="true" weight="0.18886097" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -641,18 +704,18 @@
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.82613575" visible="true" weight="0.27332783" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49971956" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82613575" weight="0.2703322" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49971956" weight="0.39977092" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4426094" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17386428" side_tool="true" weight="0.38265896" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.2675475" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32700247" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3249139" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -669,6 +732,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -681,97 +770,22 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/PropertySource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/GenericTypeResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/ResolvableType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/EnableWebMvc.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/Environment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/framework/AopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/DeskFile/学习资料/XMIND/技术难点/内省技术分析/introspetor/Demo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10708">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/AbstractPropertyResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.2.RELEASE/spring-aop-5.2.2.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/beans/Introspector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="221" column="27" selection-start-line="221" selection-start-column="27" selection-end-line="221" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib-2.4-jdk13/2.4/json-lib-2.4-jdk13-2.4-jdk13.jar!/net/sf/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31614">
@@ -817,16 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="373">
-            <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -838,13 +842,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/HttpRequest.http" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/EnvironmentCapable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -901,22 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -938,26 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImportantPoint.Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="286">
-            <caret line="13" column="79" lean-forward="true" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/annotation/ElementType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -969,72 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/ToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,12 +947,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ImportantPoint.Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="286">
+            <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/inject.java" />
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/ToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/Getter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="726">
+            <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="99" lean-forward="true" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15092">
+          <caret line="799" column="56" selection-start-line="799" selection-start-column="56" selection-end-line="799" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2518">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">

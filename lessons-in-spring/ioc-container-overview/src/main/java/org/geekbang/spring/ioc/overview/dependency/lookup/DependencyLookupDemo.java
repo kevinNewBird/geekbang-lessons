@@ -38,6 +38,9 @@ public class DependencyLookupDemo {
         lookupInRealTime(beanFactory);
         //2.通过类型的方式--查询单个或集合实例
         lookupByType(beanFactory);//单个实例
+
+
+        // ListableBeanFactory用于多继承的多个类的注入和通过注解方式注入多个类
         lookupCollectionType(beanFactory);//集合实例
         //3.根据Bean 名称+类型 查找
 
