@@ -29,9 +29,8 @@
         <!-- additional collaborators and configuration for this bean go here -->
     </bean>
 
-    <!--<bean id="factoryBean" class="org.geekbang.spring.ioc.overview.dependency.lookup.CustomerFactoryBean">-->
-        <!--<property name="type" value="myuser"/>-->
-    <!--</bean>-->
+    <bean id="factoryBean" class="org.geekbang.spring.ioc.overview.dependency.lookup.CustomerFactoryBean">
+    </bean>
 
 
     <!-- more bean definitions for services go here -->

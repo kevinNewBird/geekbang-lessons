@@ -1,9 +1,6 @@
 package org.geekbang.spring.ioc.overview.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.ArrayList;
 
@@ -18,6 +15,7 @@ import java.util.ArrayList;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class User {
 
     private Integer id;

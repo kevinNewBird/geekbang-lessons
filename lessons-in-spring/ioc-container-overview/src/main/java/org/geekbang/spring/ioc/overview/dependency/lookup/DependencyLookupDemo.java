@@ -1,6 +1,7 @@
 package org.geekbang.spring.ioc.overview.dependency.lookup;
 
 import org.geekbang.spring.ioc.overview.annotation.Super;
+import org.geekbang.spring.ioc.overview.dependency.FactoryBeanService;
 import org.geekbang.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.FactoryBean;
@@ -46,6 +47,10 @@ public class DependencyLookupDemo {
 
         //4.通过注解的方式查找对象
         lookupByAnnotationType(beanFactory);
+
+        //5.FactoryBean
+        FactoryBeanService bean = beanFactory.getBean(FactoryBeanService.class);
+        bean.testFactoryBean();
     }
 
     private static void lookupByAnnotationType(BeanFactory beanFactory) {
