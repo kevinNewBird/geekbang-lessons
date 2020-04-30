@@ -86,6 +86,11 @@
                 <artifactId>ezmorph</artifactId>
                 <version>1.0.6</version>
             </dependency>
+            <dependency>
+                <groupId>io.vavr</groupId>
+                <artifactId>vavr</artifactId>
+                <version>0.9.3</version>
+            </dependency>
             <!--End     net.sf.json 需要引入的依赖-->
         </dependencies>
     </dependencyManagement>
@@ -138,6 +143,10 @@
         <dependency>
             <groupId>net.sf.ezmorph</groupId>
             <artifactId>ezmorph</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.vavr</groupId>
+            <artifactId>vavr</artifactId>
         </dependency>
     </dependencies>
     <build>

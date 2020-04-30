@@ -1,6 +1,7 @@
 package org.geekbang.spring.ioc.overview.dependency.lookup;
 
 import org.geekbang.spring.ioc.overview.annotation.Super;
+import org.geekbang.spring.ioc.overview.dependency.FactoryBeanService;
 import org.geekbang.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.FactoryBean;
@@ -38,11 +39,18 @@ public class DependencyLookupDemo {
         lookupInRealTime(beanFactory);
         //2.通过类型的方式--查询单个或集合实例
         lookupByType(beanFactory);//单个实例
+
+
+        // ListableBeanFactory用于多继承的多个类的注入和通过注解方式注入多个类
         lookupCollectionType(beanFactory);//集合实例
         //3.根据Bean 名称+类型 查找
 
         //4.通过注解的方式查找对象
         lookupByAnnotationType(beanFactory);
+
+        //5.FactoryBean
+        FactoryBeanService bean = beanFactory.getBean(FactoryBeanService.class);
+        bean.testFactoryBean();
     }
 
     private static void lookupByAnnotationType(BeanFactory beanFactory) {

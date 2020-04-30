@@ -1,41 +1,38 @@
 package org.geekbang.spring.ioc.overview.dependency.lookup;
 
+import org.geekbang.spring.ioc.overview.dependency.FactoryBeanService;
+import org.geekbang.spring.ioc.overview.dependency.FactoryBeanServiceImpl;
 import org.geekbang.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.FactoryBean;
+import org.springframework.stereotype.Component;
+
+import java.util.Optional;
 
 /**
- * Description: TODO <BR>
+ * Description: 未成功实现（待学习） <BR>
  *
  * @Author: zhao.song
  * @Date: 2020/4/10 10:00
  * @Version: 1.0
  */
+@Component
 public class CustomerFactoryBean implements FactoryBean {
-    private String type;
 
 
-    @Override
-    public Object getObject() throws Exception {
-        if ("myuser".equalsIgnoreCase(type)) {
-            return new User();
-        } else {
-            return new CustomerFactoryBean();
+        @Override
+        public Object getObject() throws Exception {
+            //这个Bean是我们自己new的，这里我们就可以控制Bean的创建过程了
+            return new FactoryBeanServiceImpl();
         }
 
-    }
+        @Override
+        public Class<?> getObjectType() {
+            return FactoryBeanService.class;
+        }
 
-    @Override
-    public Class<?> getObjectType() {
-        return User.class;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
+        @Override
+        public boolean isSingleton() {
+            return true;
+        }
 
 }
