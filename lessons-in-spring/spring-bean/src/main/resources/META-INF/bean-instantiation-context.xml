@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--静态方法实例化 Bean-->
+    <bean id="user-by-static-method" class="org.geekbang.spring.ioc.overview.domain.User" factory-method="createUser">
+
+    </bean>
+
+    <!--工厂方式 -class属性可以省略-->
+    <bean id="user-by-factory" class="org.geekbang.spring.ioc.overview.domain.User"
+          factory-bean="userFactory" factory-method="createUser"></bean>
+
+    <bean id="userFactory" class="org.geekbang.spring.bean.factory.DefaultUserFactory"/>
+
+
+    <bean name="user-by-factory-bean" class="org.geekbang.spring.bean.factory.UserFactoryBean"/>
+</beans>

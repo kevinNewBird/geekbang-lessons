@@ -6,6 +6,25 @@
         <option value="$PROJECT_DIR$/lessons-in-spring/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-integration-test/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-opentracing/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-sql-test/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-spi/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/pom.xml" />
+        <option value="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

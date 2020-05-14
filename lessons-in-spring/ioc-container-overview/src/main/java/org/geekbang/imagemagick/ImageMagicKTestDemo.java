@@ -10,7 +10,10 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Iterator;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.List;
 
 /**
  * Description: TODO <BR>
@@ -21,14 +24,25 @@ import java.util.Iterator;
  */
 public class ImageMagicKTestDemo {
 
+    private static List<String> PIC_FORMAT_LIST = null;
+
+    //初始化常用的图片格式
+    static {
+        PIC_FORMAT_LIST = new ArrayList<>();
+        Collections.addAll(PIC_FORMAT_LIST, "jpg", "png", "bmp", "gif");
+    }
+
 
     public static void main(String[] args) throws IOException {
-        Either<Throwable, String> e = testEither(1);
+      /*  Either<Throwable, String> e = testEither(1);
         if (e.isLeft()) {
             System.out.println(e.getLeft().getMessage());
         } else {
             System.out.println(e.get());
-        }
+        }*/
+
+        Arrays.stream(getResult("C:\\Users\\Kevin\\Desktop\\xml\\兼容xml", "E_291482.xml")).forEach(file -> System.out.println(file.getName()));
+        int i = 0;
 //        readJPGImage();
     }
 
@@ -45,9 +59,13 @@ public class ImageMagicKTestDemo {
         param.setSourceRegion(rect);
         BufferedImage image = reader.read(0, param);
         ImageIO.write(image, "jpg", new File("d://test_.jpg"));*/
-        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\W020200426648746559943.jpg");
+        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\E_63250.xml");
 //        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\sfasfdasfda.bmp");
 //        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\14698306565.jpg");
+        DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar cal = Calendar.getInstance();
+        cal.setTimeInMillis(oFile.lastModified());
+        System.out.println(format.format(cal.getTime()));
         FileInputStream fi = new FileInputStream(oFile);
         try {
             getImageFormat(oFile);
@@ -68,7 +86,7 @@ public class ImageMagicKTestDemo {
             } catch (Exception e1) {
                 e1.printStackTrace();
             }
-        }finally {
+        } finally {
             fi.close();
         }
     }
@@ -94,5 +112,26 @@ public class ImageMagicKTestDemo {
         } else {
             return Either.right("sssssss");
         }
+    }
+
+
+    private static File[] getResult(String _filePath, String oXMlFileName) {
+        File oFile = new File(_filePath);
+        String oPicFileName = oXMlFileName.substring(0, oXMlFileName.lastIndexOf("."));
+        //过滤出符合条件的文件
+        File[] oFileArr = oFile.listFiles((File dir, String name) -> {
+            int index = name.lastIndexOf(".");
+            String oFilePostfixOfServer = name.substring(index + 1);
+            String oFileNameOfServerWithNoPostFix = name.substring(0, index > 0
+                    ? index : name.length());
+            //判断xml是否有对应的图片文件
+            long isContainPic = PIC_FORMAT_LIST.stream()
+                    .filter((picFormat) -> oFileNameOfServerWithNoPostFix.equals(oPicFileName) && picFormat.equalsIgnoreCase(oFilePostfixOfServer)).count();
+            if (isContainPic > 0) {
+                return true;
+            }
+            return false;
+        });
+        return oFileArr;
     }
 }

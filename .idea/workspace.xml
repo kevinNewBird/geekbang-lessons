@@ -2,32 +2,135 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38599087-60c6-494e-99a1-d3667229f98e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2TextDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/AnnotationApplicationContextAsIoCContainerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/BeanFactoryAsIoCContainerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/AnnotationBeanDefinitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanAliasDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanDefinitionCreationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanGarbageCollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInitializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/CommonBeanInstantiationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SingletonBeanRegistrationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SpecialBeanInstantiationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/DefaultUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/UserFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-definition-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-instantiation-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/services/org.geekbang.spring.bean.factory.UserFactory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/special-bean-instantiation-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/META-INF/dependency-lookup-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/META-INF/dependency-lookup-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/classes/org/geekbang/spring/ioc/overview/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons-in-spring/lessons-in-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/lessons-in-spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons-in-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons-in-spring/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/lessons-in-spring/target/" />
     <ignored path="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/lessons-in-spring/spring-bean/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-backend/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-frontend/sharding-proxy-frontend-postgresql/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-entry/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-base/sharding-transaction-base-seata-at/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-reg/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-config/sharding-orchestration-config-api/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-integration-test/sharding-jdbc-test/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-rewrite/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-sqlserver/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-frontend/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-reg/sharding-orchestration-reg-api/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-spring-boot-util/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-oracle/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-route/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-test/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-integration-test/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-spi/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-transport/sharding-proxy-transport-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/shardingsphere-rewrite/shardingsphere-rewrite-engine/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-opentracing/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-config/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/encrypt-core/encrypt-core-merge/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-bootstrap/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-reg/sharding-orchestration-reg-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-bitronix/sharding-transaction-xa-bitronix-manager/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-frontend/sharding-proxy-frontend-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-zookeeper-curator-integration-test/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-spi/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/shardingsphere-rewrite/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-ui/sharding-ui-backend/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-common/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-bitronix/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/database-time-service/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-sql92/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-transport/sharding-proxy-transport-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-merge/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-transport/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-reg/sharding-orchestration-reg-zookeeper-curator/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-postgresql/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-execute/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-distribution/shardingsphere-src-distribution/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-distribution/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-jdbc/sharding-jdbc-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-transport/sharding-proxy-transport-postgresql/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-config/sharding-orchestration-config-apollo/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-jdbc-spring/sharding-jdbc-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-jdbc/sharding-jdbc-orchestration/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-relation/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-spi/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-ui/sharding-ui-frontend/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-jdbc-spring/sharding-jdbc-spring-namespace/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-narayana/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/shardingsphere-rewrite/shardingsphere-rewrite-test/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-frontend/sharding-proxy-frontend-spi/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-sql-parser/shardingsphere-sql-parser-engine/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-distribution/sharding-proxy-distribution/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-base/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/encrypt-core/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-common/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/shardingsphere-merge/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-proxy/sharding-proxy-frontend/sharding-proxy-frontend-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-jdbc-orchestration-spring/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-sql-test/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/sharding-orchestration-config/sharding-orchestration-config-zookeeper-curator/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-core/sharding-core-api/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/shardingsphere-underlying/shardingsphere-execute/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-jdbc-spring/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-distribution/sharding-ui-distribution/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-orchestration/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-narayana/sharding-transaction-xa-narayana-manager/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-ui/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-spring/sharding-jdbc-orchestration-spring/sharding-jdbc-orchestration-spring-namespace/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/encrypt-core/encrypt-core-rewrite/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-atomikos/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-distribution/sharding-jdbc-distribution/target/" />
+    <ignored path="$PROJECT_DIR$/../../gitee/sharding-sphere/sharding-transaction/sharding-transaction-2pc/sharding-transaction-xa/sharding-transaction-xa-atomikos/sharding-transaction-xa-atomikos-manager/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,72 +141,81 @@
     <session id="2075240120">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="8" />
-          <entry key="project.open.time.12" value="6" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.11" value="9" />
+          <entry key="project.open.time.12" value="7" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="48" />
-          <entry key="gitignore" value="1" />
+          <entry key="UserFactory" value="1" />
+          <entry key="class" value="55" />
+          <entry key="gitignore" value="3" />
           <entry key="http" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="70" />
+          <entry key="java" value="198" />
           <entry key="md" value="9" />
-          <entry key="xml" value="15" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="46" />
           <entry key="xsd" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="48" />
+          <entry key="CLASS" value="55" />
           <entry key="HTTP Request" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="198" />
           <entry key="Markdown" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="17" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SPI" value="1" />
+          <entry key="XML" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="14" />
+          <entry key="UserFactory" value="27" />
+          <entry key="dummy" value="22" />
           <entry key="ft" value="17" />
-          <entry key="java" value="7965" />
+          <entry key="gitignore" value="52" />
+          <entry key="java" value="13626" />
           <entry key="md" value="1075" />
           <entry key="txt" value="43" />
-          <entry key="xml" value="1436" />
+          <entry key="xml" value="2178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7971" />
+          <entry key="JAVA" value="13632" />
           <entry key="Markdown" value="1069" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="PLAIN_TEXT" value="117" />
+          <entry key="SPI" value="27" />
           <entry key="VTL" value="17" />
-          <entry key="XML" value="1436" />
+          <entry key="XML" value="2178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.checkout.local" value="3" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="1" />
         </counts>
@@ -113,104 +225,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/swing/text/html/parser/ParserDelegator.java">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/AnnotationBeanDefinitionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="100" column="60" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="60" />
+            <state relative-caret-position="1298">
+              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/swing/text/html/HTMLEditorKit.java">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanAliasDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20724">
-              <caret line="1002" column="20" selection-start-line="1002" selection-start-column="20" selection-end-line="1002" selection-end-column="20" />
+            <state relative-caret-position="484">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanDefinitionCreationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2TextDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2Text.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/com/sun/imageio/plugins/jpeg/JPEGImageReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22264">
-              <caret line="1069" column="38" selection-start-line="1069" selection-start-column="8" selection-end-line="1069" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ThumbnailConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="220">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SingletonBeanRegistrationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="29" column="96" lean-forward="true" selection-start-line="29" selection-start-column="96" selection-end-line="29" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInitializationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanGarbageCollectionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16434">
+              <caret line="851" column="100" selection-start-line="851" selection-start-column="100" selection-end-line="851" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SpecialBeanInstantiationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="59" column="54" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/serviceloader/ServiceLoaderFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -233,6 +341,10 @@
       <find>ObjectFactory</find>
       <find>setParent</find>
       <find>getBeanFactory</find>
+      <find>DefaultSingletonBeanRegistry</find>
+      <find>AnnotationBeanName</find>
+      <find>ServiceLoder</find>
+      <find>ServiceLoaderFactoryBean</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -266,23 +378,43 @@
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/IoCContainerDemo.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/BeanFactoryAsIoCContainerDemo.java" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ThumnailConvert.java" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/AnnotationApplicationContextAsIoCContainerDemo.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanService.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanServiceImp.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ThumbnailConvert.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/pom.xml" />
-        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2Test.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2TextDemoTest.java" />
         <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2Text.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanDefinitionCreationDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanAliasDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-creation-context.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInstanitionDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/UserFactory.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/UserFactoryBean.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-definition-context.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-instantiation-context.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInstantiationDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/CommonBeanInstantiationDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/AnnotationBeanDefinitionDemo.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/services/org.geekbang.spring.bean.factory.UserFactory" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/special-bean-instantiation-context.xml" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SpecialBeanInstantiationDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/DefaultUserFactory.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInitializationDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanGarbageCollectionDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SingletonBeanRegistrationDemo.java" />
+        <option value="$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" />
       </list>
     </option>
   </component>
@@ -302,18 +434,29 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lessons-in-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lessons-in-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="1942" />
-    <option name="height" value="1060" />
+    <option name="x" value="1955" />
+    <option name="y" value="139" />
+    <option name="width" value="1349" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -334,8 +477,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,11 +487,6 @@
             <path>
               <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
               <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -403,18 +539,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="geekbang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
-              <item name="html2txt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
@@ -435,31 +559,132 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geekbang-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geekbang-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lessons-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-bean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="geekbang" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="definition" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ObjectFactory&#9;FILE&#9;jar://D:/maven_repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/config/ObjectFactoryCreatingFactoryBean.class&#10;EnableWebMvc&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;ResolvableType&#9;PSI&#9;JAVA://org.springframework.core.ResolvableType&#10;GenericTypeResolver&#9;PSI&#9;JAVA://org.springframework.core.GenericTypeResolver&#10;PropertySource&#9;PSI&#9;JAVA://org.springframework.core.env.PropertySource&#10;Environment&#9;PSI&#9;JAVA://org.springframework.core.env.Environment&#10;AopProxy&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxy&#10;SimpleApplicationEvent&#9;PSI&#9;JAVA://org.springframework.context.event.SimpleApplicationEventMulticaster&#10;ApplicationEvent&#9;PSI&#9;JAVA://org.springframework.context.ApplicationEvent&#10;beanNameaware&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanNameAware&#10;BeanPostProcessor&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;Aware&#9;PSI&#9;JAVA://org.springframework.beans.factory.Aware" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588160865851" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589442394312" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geekbang.spring.bean.definition" />
       <recent name="org.geekbang.spring.ioc.overview.container" />
       <recent name="org.geekbang.spring.ioc.overview.dependency.injection" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\geekbang-lessons\geekbang-lessons\lessons-in-spring\spring-bean\src\main\resources\META-INF" />
       <recent name="E:\work\geekbang-lessons\geekbang-lessons" />
       <recent name="E:\work\geekbang-lessons\geekbang-lessons\lessons-in-spring\ioc-container-overview\src\main\resources\META-INF" />
     </key>
@@ -476,9 +701,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Html2TextDemoTest">
-    <configuration name="AnnotationApplicationContextAsIoCContainerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.container.AnnotationApplicationContextAsIoCContainerDemo" />
+  <component name="RunManager" selected="Application.SingletonBeanRegistrationDemo">
+    <configuration name="BeanFactoryAsIoCContainerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.container.BeanFactoryAsIoCContainerDemo" />
       <module name="ioc-container-overview" />
       <extension name="coverage">
         <pattern>
@@ -490,12 +715,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.dependency.lookup.DependencyLookupDemo" />
-      <module name="ioc-container-overview" />
+    <configuration name="BeanGarbageCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.bean.definition.BeanGarbageCollectionDemo" />
+      <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geekbang.spring.ioc.overview.dependency.lookup.*" />
+          <option name="PATTERN" value="org.geekbang.spring.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,12 +728,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Html2TextDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.html2txt.Html2TextDemoTest" />
-      <module name="ioc-container-overview" />
+    <configuration name="BeanInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.bean.definition.BeanInitializationDemo" />
+      <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geekbang.html2txt.*" />
+          <option name="PATTERN" value="org.geekbang.spring.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -529,12 +754,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.ioc.overview.repository.UserRepository" />
-      <module name="ioc-container-overview" />
+    <configuration name="SingletonBeanRegistrationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.spring.bean.definition.SingletonBeanRegistrationDemo" />
+      <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geekbang.spring.ioc.overview.repository.*" />
+          <option name="PATTERN" value="org.geekbang.spring.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -542,20 +767,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sharding-ui-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.apache.shardingsphere.ui.Bootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DependencyLookupDemo" />
-      <item itemvalue="Application.UserRepository" />
-      <item itemvalue="Application.AnnotationApplicationContextAsIoCContainerDemo" />
+      <item itemvalue="Spring Boot.Bootstrap" />
+      <item itemvalue="Application.BeanFactoryAsIoCContainerDemo" />
       <item itemvalue="Application.ImageMagicKTestDemo" />
-      <item itemvalue="Application.Html2TextDemoTest" />
+      <item itemvalue="Application.BeanInitializationDemo" />
+      <item itemvalue="Application.BeanGarbageCollectionDemo" />
+      <item itemvalue="Application.SingletonBeanRegistrationDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Html2TextDemoTest" />
+        <item itemvalue="Application.SingletonBeanRegistrationDemo" />
+        <item itemvalue="Application.BeanGarbageCollectionDemo" />
+        <item itemvalue="Application.BeanInitializationDemo" />
         <item itemvalue="Application.ImageMagicKTestDemo" />
-        <item itemvalue="Application.DependencyLookupDemo" />
-        <item itemvalue="Application.UserRepository" />
-        <item itemvalue="Application.AnnotationApplicationContextAsIoCContainerDemo" />
+        <item itemvalue="Application.BeanFactoryAsIoCContainerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -622,6 +855,31 @@
       <workItem from="1588137809446" duration="8912000" />
       <workItem from="1588171342091" duration="597000" />
       <workItem from="1588211893389" duration="2000" />
+      <workItem from="1588249157934" duration="1806000" />
+      <workItem from="1588386696453" duration="599000" />
+      <workItem from="1588432433856" duration="1073000" />
+      <workItem from="1588472397759" duration="14165000" />
+      <workItem from="1588560269932" duration="4441000" />
+      <workItem from="1588596540177" duration="1736000" />
+      <workItem from="1588642648206" duration="599000" />
+      <workItem from="1588653396145" duration="303000" />
+      <workItem from="1588689757461" duration="599000" />
+      <workItem from="1588732330982" duration="2293000" />
+      <workItem from="1588747845578" duration="2651000" />
+      <workItem from="1588767197815" duration="3439000" />
+      <workItem from="1588777322370" duration="3881000" />
+      <workItem from="1588815317680" duration="2998000" />
+      <workItem from="1588836129045" duration="2329000" />
+      <workItem from="1589187210395" duration="1221000" />
+      <workItem from="1589199834215" duration="1822000" />
+      <workItem from="1589247292592" duration="596000" />
+      <workItem from="1589271716930" duration="599000" />
+      <workItem from="1589286512777" duration="902000" />
+      <workItem from="1589299442311" duration="1085000" />
+      <workItem from="1589333673278" duration="1376000" />
+      <workItem from="1589369362186" duration="599000" />
+      <workItem from="1589420644544" duration="5083000" />
+      <workItem from="1589439552350" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 谁是ioc真正的容器">
       <created>1587541389676</created>
@@ -634,7 +892,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125946000" />
+    <option name="totallyTimeSpent" value="187218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,37 +904,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1840" height="1002" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="2448" height="1344" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971815" visible="true" weight="0.36516854" />
-      <window_info id="Structure" order="1" sideWeight="0.50281847" side_tool="true" weight="0.18886097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4924875" visible="true" weight="0.22194305" />
+      <window_info id="Structure" order="1" sideWeight="0.5083612" side_tool="true" weight="0.2752809" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82613575" weight="0.3383199" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49971956" weight="0.3981588" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8252809" visible="true" weight="0.29975227" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49971956" weight="0.3104872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.4426094" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17386428" side_tool="true" weight="0.38265896" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1747191" side_tool="true" weight="0.4695052" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.2675475" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.35903338" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32451093" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3236994" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32753786" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3269663" />
       <window_info anchor="right" id="Alibaba Function Compute" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -766,16 +1025,34 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java</url>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java</url>
-          <line>52</line>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInitializationDemo.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>549</line>
+          <properties />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -833,236 +1110,101 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="547" column="28" selection-start-line="547" selection-start-column="28" selection-end-line="547" selection-end-column="28" />
+        <state relative-caret-position="2442">
+          <caret line="131" column="41" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/inject.java" />
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="3696">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationBeanNameGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="1210">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/ToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/ioc-container-overview.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.22/lombok-1.16.22-sources.jar!/lombok/Getter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="99" lean-forward="true" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="799" column="56" selection-start-line="799" selection-start-column="56" selection-end-line="799" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="726">
-            <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="79" column="70" selection-start-line="79" selection-start-column="70" selection-end-line="79" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImportantPoint.Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/imagemagick.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/im4java/im4java/1.4.0/im4java-1.4.0.jar!/org/im4java/core/ImageCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1738">
-          <caret line="112" column="50" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/BeanFactoryAsIoCContainerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/factorybean.java" />
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/AnnotationApplicationContextAsIoCContainerDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="242">
+          <caret line="11" column="112" lean-forward="true" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/io/support/ResourcePatternResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="194" column="30" lean-forward="true" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="61" column="102" lean-forward="true" selection-start-line="61" selection-start-column="102" selection-end-line="61" selection-end-column="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="352">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="3036">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/CommonUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+        <state relative-caret-position="308">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1073,118 +1215,271 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java">
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1004">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-definition-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/services/org.geekbang.spring.bean.factory.UserFactory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/CommonBeanInstantiationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons-in-spring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3256">
-          <caret line="148" column="28" selection-start-line="148" selection-start-column="28" selection-end-line="148" selection-end-column="28" />
+        <state relative-caret-position="418">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26400">
-          <caret line="1296" selection-start-line="1296" selection-end-line="1296" />
+        <state relative-caret-position="264">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/BeanFactoryAsIoCContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/imageio/ImageReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20592">
-          <caret line="996" column="34" selection-start-line="996" selection-start-column="34" selection-end-line="996" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/swing/text/html/parser/ParserDelegator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="100" column="60" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/swing/text/html/HTMLEditorKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20724">
-          <caret line="1002" column="20" selection-start-line="1002" selection-start-column="20" selection-end-line="1002" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/com/sun/imageio/plugins/jpeg/JPEGImageReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22264">
-          <caret line="1069" column="38" selection-start-line="1069" selection-start-column="8" selection-end-line="1069" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ThumbnailConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/FactoryBeanServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/CustomerFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/container/AnnotationApplicationContextAsIoCContainerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/imagemagick/ImageMagicKTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/ioc/java/beans/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="188" column="59" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/domain/SuperUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/src/main/java/com/geekbang/ioc/java/beans/BeanInfoDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/special-bean-instantiation-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/resources/META-INF/bean-instantiation-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="96" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="877" selection-start-line="877" selection-end-line="877" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/DefaultUserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#2617#2618#0" expanded="true" />
+            <element signature="e#2682#2683#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/annotation/PreDestroy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="1210">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml">
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/UserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="242">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/factory/UserFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanInitializationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16434">
+          <caret line="851" column="100" selection-start-line="851" selection-start-column="100" selection-end-line="851" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SpecialBeanInstantiationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/serviceloader/ServiceLoaderFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanAliasDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanGarbageCollectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/AnnotationBeanDefinitionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/SingletonBeanRegistrationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="96" lean-forward="true" selection-start-line="29" selection-start-column="96" selection-end-line="29" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons-in-spring/spring-bean/src/main/java/org/geekbang/spring/bean/definition/BeanDefinitionCreationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons-in-spring/ioc-container-overview/src/main/java/org/geekbang/html2txt/Html2TextDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1205,7 +1500,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1240,7 +1535,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lessons-in-spring</last-edited>
+          <last-edited>spring-bean</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
