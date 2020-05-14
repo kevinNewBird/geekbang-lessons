@@ -1,0 +1,2 @@
+#这个jdk获取类的实现{@link:org.geekbang.spring.bean.definition.SpecialBeanInstantiationDemo}
+org.geekbang.spring.bean.factory.DefaultUserFactory

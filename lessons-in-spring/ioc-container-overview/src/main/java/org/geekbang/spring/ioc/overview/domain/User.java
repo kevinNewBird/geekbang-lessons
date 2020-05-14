@@ -34,4 +34,19 @@ public class User {
         list.add(1);
         System.out.println(list);
     }
+
+
+    /**
+     * Description: 通过静态方法创建Bean(第四章) <BR>
+     *
+     * @param :
+     * @return org.geekbang.spring.ioc.overview.domain.User
+     * @author zhao.song    2020/5/4 10:57
+     */
+    public static User createUser() {
+        User user = new User();
+        user.setId(11);
+        user.setName("test factory bean");
+        return user;
+    }
 }

@@ -6,7 +6,11 @@
 
     <!-- services -->
 
-    <bean id="user" class="org.geekbang.spring.ioc.overview.domain.User">
+    <!--开发人员可用id或name属性来规定Bean的标识符 . 通常Bean的标识符由字母组成, 允许出现特殊字符.
+      如果想引入Bean的别名的话 , 可在name属性使用半角","或分号";"来间隔.
+    -->
+
+    <bean name="user;userAlias" class="org.geekbang.spring.ioc.overview.domain.User" primary="false">
         <property name="id" value="1"/>
         <property name="name" value="geekbang"/>
         <!-- additional collaborators and configuration for this bean go here -->
@@ -14,6 +18,7 @@
 
 
     <!--通过类型获取对象时，必须指明primary-->
+    <!--parent属性的作用 , 可以将父类的属性值注入到当前Bean中-->
     <bean id="superUser" class="org.geekbang.spring.ioc.overview.domain.SuperUser" parent="user" primary="true">
         <property name="address" value="beijing"/>
         <!-- additional collaborators and configuration for this bean go here -->

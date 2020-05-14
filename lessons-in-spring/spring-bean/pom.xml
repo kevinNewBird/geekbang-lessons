@@ -10,26 +10,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ioc-container-overview</artifactId>
+    <artifactId>spring-bean</artifactId>
+    <description>Spring Bean 基础</description>
+
     <dependencies>
-        <!--
-              spring-core: Spring基础API模块 , 如资源管理,泛型处理;
-              spring-beans: Spring Bean 相关, 如依赖查找,依赖注入;
-              spring-aop: Spring AOP 处理, 如动态代理, AOP字节码提升;
-              spring-context: 事件驱动、注解驱动，模块驱动等；
-              spring-expression: Spring 表达式语言模块
-        -->
         <!--Spring IoC 核心依赖-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
-        <!--ImageMagicK 截图工具依赖-->
+        <!--复用 ioc-container-overview-->
         <dependency>
-            <groupId>org.im4java</groupId>
-            <artifactId>im4java</artifactId>
-            <version>1.4.0</version>
+            <groupId>${groupId}</groupId>
+            <artifactId>ioc-container-overview</artifactId>
+            <version>${version}</version>
         </dependency>
     </dependencies>
-
 </project>

@@ -78,8 +78,6 @@ public class DependencyLookupDemo {
     }//    end--------------查询集合实例-----------------------------------
 
 
-
-
 //    start--------------查询单个实例-----------------------------------
 
     /**
@@ -102,7 +100,8 @@ public class DependencyLookupDemo {
      * @author zhao.song    2020/4/9 23:47
      */
     public static void lookupInRealTime(BeanFactory beanFactory) {
-        User user = beanFactory.getBean("user", User.class);
+        //别名获取Bean
+        User user = beanFactory.getBean("userAlias", User.class);
 //        user.setId(1);
 //        user.setName("kevin");
         System.out.println("实时查找--名称:" + user);
