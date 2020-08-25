@@ -18,6 +18,7 @@
 
 
     <!--通过类型获取对象时，必须指明primary-->
+    <!--parent属性的作用 , 可以将父类的属性值注入到当前Bean中-->
     <bean id="superUser" class="org.geekbang.spring.ioc.overview.domain.SuperUser" parent="user" primary="true">
         <property name="address" value="beijing"/>
         <!-- additional collaborators and configuration for this bean go here -->

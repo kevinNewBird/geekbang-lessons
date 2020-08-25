@@ -41,9 +41,9 @@ public class ImageMagicKTestDemo {
             System.out.println(e.get());
         }*/
 
-        Arrays.stream(getResult("C:\\Users\\Kevin\\Desktop\\xml\\兼容xml", "E_291482.xml")).forEach(file -> System.out.println(file.getName()));
+//        Arrays.stream(getResult("C:\\Users\\Kevin\\Desktop\\xml\\兼容xml", "E_291482.xml")).forEach(file -> System.out.println(file.getName()));
         int i = 0;
-//        readJPGImage();
+        readJPGImage();
     }
 
     private static void readJPGImage() throws IOException {
@@ -59,7 +59,7 @@ public class ImageMagicKTestDemo {
         param.setSourceRegion(rect);
         BufferedImage image = reader.read(0, param);
         ImageIO.write(image, "jpg", new File("d://test_.jpg"));*/
-        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\E_63250.xml");
+        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\W020200602512596132635.jpeg");
 //        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\sfasfdasfda.bmp");
 //        File oFile = new File("E:\\deskFile\\trs_work\\工作任务\\新疆融媒体云--新疆日报\\素材\\picture\\14698306565.jpg");
         DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
@@ -71,11 +71,12 @@ public class ImageMagicKTestDemo {
             getImageFormat(oFile);
             BufferedImage bufferedImage = ImageIO.read(fi);//图片损坏获取结果为null
             int picWidth = bufferedImage.getWidth();
+            new ThumbnailConvert().setCMYK_COMMAND(oFile.getPath(), System.currentTimeMillis() + ".jpg");
         } catch (IOException e) {
 
             try {
                 ThumbnailConvert tc = new ThumbnailConvert();
-                tc.setCMYK_COMMAND(oFile.getPath(), "sfasfdasfda.bmp");
+                tc.setCMYK_COMMAND(oFile.getPath(), System.currentTimeMillis() + ".jpg");
                 Image image = null;
                 image = Toolkit.getDefaultToolkit().getImage(oFile.getPath());
                 MediaTracker mediaTracker = new MediaTracker(new Container());
